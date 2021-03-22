@@ -38,7 +38,7 @@
   display: none;
 }
 
-.img-container.active{
+.active{
   display: inline-block;
 }
 

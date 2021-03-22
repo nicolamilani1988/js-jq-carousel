@@ -1,13 +1,16 @@
 // funzione clic freccia previous (#left)
 function prevClick(){
 
-  console.log("previous");
+
 }
 
 // funzione clic freccia next (#right)
 function nextClick(){
 
-console.log("next");
+
+  $(".active").next(".img-container").addClass("active");
+  $(".active").removeClass("active");
+
 }
 
 // funzione avviamento
