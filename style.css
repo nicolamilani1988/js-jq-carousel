@@ -35,6 +35,11 @@
 .img-container{
   width: 100%;
   height: 100%;
+  display: none;
+}
+
+.img-container.active{
+  display: inline-block;
 }
 
 .img-container img{
