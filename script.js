@@ -1,15 +1,24 @@
 // funzione clic freccia previous (#left)
 function prevClick(){
 
+  var activeImg = $(".active");
+  var nextImg = activeImg.prev(".img-container");
+
+  activeImg.removeClass("active");
+  nextImg.addClass("active");
 
 }
 
 // funzione clic freccia next (#right)
 function nextClick(){
 
+  var activeImg = $(".active");
+  var nextImg = activeImg.next(".img-container");
 
-  $(".active").next(".img-container").addClass("active");
-  $(".active").removeClass("active");
+  activeImg.removeClass("active");
+  nextImg.addClass("active");
+
+
 
 }
 
